@@ -1,0 +1,7 @@
+Files placed in this directory will be accessible only to 
+users with a 'csenetid' account.
+
+Note that content in protected directories must be accessed using HTTPS.
+To enforce that, write links like this:
+
+  https:/www.cs.washington.edu/education/courses/cse548/14au/csenetid/<filename>
