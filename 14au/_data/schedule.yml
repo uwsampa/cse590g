@@ -1,12 +1,12 @@
 - date: Sept 29
   who: ???
-  paper: "[None](http://cs.uw.edu/590g) (assign papers)"
+  paper:
+    - "[None](http://cs.uw.edu/590g)"
+    - (assign papers)
 
 - date: Oct 6
   who: ???
   paper:
-    - "[Test](test.com)"
-    - ASPLOS 2014
 
 - date: Oct 13
   who: ???
