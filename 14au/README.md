@@ -1,4 +1,4 @@
-# CSE 548 - Autumn 2014
+# CSE 590G - Autumn 2014
 This is the source for the website.
 
 To edit the main page (*except the schedule*), edit [index.md](index.md).
