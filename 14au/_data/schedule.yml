@@ -1,76 +1,39 @@
-- date: Sept 24 (W)
-  topic: Intro / Metrics / Project ideas
+- date: Sept 29
+  who: ???
+  paper: "[None](http://cs.uw.edu/590g)"
 
-- date: Sep 26 (F)
-  topic: The ISA
+- date: Oct 6
+  who: ???
+  paper: ""
 
-- date: Oct 1 (W)
-  topic: Pipelining Review/Branch prediction
-  hw:
-    - name: HW1 out
-      url: hw/1.html
+- date: Oct 13
+  who: ???
+  paper: ""
 
-- date: Oct 3 (F)
-  topic: Superscalar/Dynamic Scheduling
-  hw: [{name: HW2 out, url: hw/2.html}]
+- date: Oct 20
+  who: ???
+  paper: ""
 
-- date: Oct 8 (W)
-  topic: Dynamic Scheduling / Multithreading / Project pitches
-  due:
-    - name: Short project pitch (1 slide max)
-    - name: One page project proposal due
-      url: https://catalyst.uw.edu/collectit/dropbox/holtbg/32924
+- date: Oct 27
+  who: ???
+  paper: ""
 
-- date: Oct 10 (F)
-  topic: Memory Hierarchy
-  hw:
-    - {name: HW3 out, url: hw/3.html}
+- date: Nov 3
+  who: ???
+  paper: ""
 
-- date: Oct 15 (W)
-  topic: "Memory Hierarchy/VM (NVRAM/PCM, etc?)"
+- date: Nov 10
+  who: ???
+  paper: ""
 
-- date: Oct 17 (F)
-  topic: "ILP, TLP, DLP/Cache coherence "
+- date: Nov 17
+  who: ???
+  paper: ""
 
-- date: Oct 22 (W)
-  topic: "Cache coherence/Memory consistency"
-  hw: HW 4 out
+- date: Nov 25
+  who: ???
+  paper: ""
 
-- date: Oct 24 (F)
-  topic: "**No lecture, optional:** Brandon on tools for your project (LLVM/Pin/etc)"
-
-- date: Oct 29 (W)
-  topic: "Memory Consistency"
-
-- date: Oct 31 (F)
-  topic: "Doug Carmean on Larrabee"
-
-- date: Nov 5 (W)
-  topic: "Brad Beckman on GPUs"
-
-- date: Nov  7 (F)
-  topic: "HW/SW interface extensions "
-
-- date: Nov 12 (W)
-  topic: "**No class** (Luis out of town)"
-
-- date: Nov 14 (F)
-  topic: "Warehouse-scale computers "
-
-- date: Nov 19 (W)
-  topic: "Quick look at real systems (Pi, Xbox One)"
-
-- date: Nov 21 (F)
-  topic: "**No class** (Luis out of town)"
-
-- date: Nov 26 (W)
-  topic: "Denard Scaling/Dark Silicon, specialization/reconfigurable computing"
-
-- date: Nov 28 (F)
-  topic: "**UW Holiday** (Thanksgiving)"
-
-- date: Dec 3 (W)
-  topic: "Future technologies (approx, 3D (gabe?), carbon nanotubes, memristors)"
-
-- date: Dec 5 (F)
-  topic: "Discussions "
+- date: Dec 1
+  who: ???
+  paper: ""

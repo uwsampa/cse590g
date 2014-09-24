@@ -12,6 +12,11 @@ h2 {
   font-size: 24px;
 }
 
+
+h3 {
+  font-size: 18px;
+}
+
 /* Everything but the jumbotron gets side spacing for mobile first views */
 .header,
 .footer {
