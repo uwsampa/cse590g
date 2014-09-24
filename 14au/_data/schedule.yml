@@ -4,7 +4,9 @@
 
 - date: Oct 6
   who: ???
-  paper: ""
+  paper:
+    - "[Test](test.com)"
+    - ASPLOS 2014
 
 - date: Oct 13
   who: ???
