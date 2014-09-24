@@ -1,10 +1,10 @@
 ---
-title: Computer Architecture Seminar
-subtitle: Autumn 2014
+title: CSE 590G
+subtitle: Architecture Seminar
 layout: base
 ---
 
-### August 2014 — Mondays, 12:30pm — CSE 303
+### Autumn 2014 — Mondays, 12:30pm — CSE 303
 
 <!-- To edit schedule, edit: `_data/schedule.yml` -->
 <div class="table-responsive">
@@ -14,7 +14,13 @@ layout: base
     <tr>
       <td>{{e.date}}</td>
       <td>{{e.who | markdownify}}</td>
-      <td>{{ e.paper | markdownify }}</td>
+      <td>
+        <ul class="list-unstyled">
+          {% for p in e.paper %}
+            <li>{{ p | markdownify }}</li>
+          {% endfor %}
+        </ul>
+      </td>
     </tr>
     {% endfor %}
   </table>
