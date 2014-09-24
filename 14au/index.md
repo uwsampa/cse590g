@@ -37,7 +37,9 @@ layout: base
 7. [The CHERI capability model: Revisiting RISC in an age of risk](http://www.cl.cam.ac.uk/research/security/ctsrd/pdfs/201406-isca2014-cheri.pdf)
 8. [Willow: A User-Programmable SSD (OSDI'14)](http://cseweb.ucsd.edu/~swanson/papers/OSDI2014-Willow.pdf)
 9. [Eidetic Systems(OSDI'14)](http://web.eecs.umich.edu/~ddevec/papers/devecsery14.pdf)
-10. [The Mill CPU](http://millcomputing.com/docs/)
+10. [An Experimental Survey of Energy Management Across the Stack (OOPSLA'14)](http://arcade.cs.columbia.edu/energy-oopsla14.pdf)
+11. [Chisel: Reliability-Aware Optimization of Approximate Computational Kernels(OOPSLA'14)](http://dspace.mit.edu/bitstream/handle/1721.1/83843/MIT-CSAIL-TR-2014-001.pdf?sequence=1) 
+12. [The Mill CPU](http://millcomputing.com/docs/)
 
 
 
