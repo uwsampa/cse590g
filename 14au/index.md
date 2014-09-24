@@ -26,7 +26,7 @@ layout: base
   </table>
 </div>
 
-##### Currect list of papers
+##### Current list of papers
 
 1. HELIX-RC: An Architecture-Compiler Co-Design for Automatic Parallelization of Irregular Programs
 https://www.cl.cam.ac.uk/~tmj32/papers/docs/campanoni14-isca.pdf
@@ -34,10 +34,10 @@ https://www.cl.cam.ac.uk/~tmj32/papers/docs/campanoni14-isca.pdf
 
 
 
-##### Guest speakers
+#### Guest speakers
 
 
-###### Hardware support for virtual memory in next-generation heterogeneous manycore systems.
+##### Hardware support for virtual memory in next-generation heterogeneous manycore systems.
 Abhishek Bhattacharjee
 
 Abstract: Since its inception, virtual memory has become a powerful and ubiquitous abstraction for allocating and managing memory with a flexible and clean programming model. Typically, the systems community has been comfortable paying a performance tax for these programmability benefits. Unfortunately, emerging software with large data requirements and deeper stacks (e.g., large graphs, relational databases,  virtualization), and emerging hardware accelerators requiring manual data orchestration by the CPU are increasing this performance tax drastically, while also conceding various programmability benefits of virtual memory.
