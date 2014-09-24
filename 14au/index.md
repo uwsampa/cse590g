@@ -28,8 +28,17 @@ layout: base
 
 ##### Current list of papers
 
-1. HELIX-RC: An Architecture-Compiler Co-Design for Automatic Parallelization of Irregular Programs
-https://www.cl.cam.ac.uk/~tmj32/papers/docs/campanoni14-isca.pdf
+1. [HELIX-RC: An Architecture-Compiler Co-Design for Automatic Parallelization of Irregular Programs (ISCA'14)](https://www.cl.cam.ac.uk/~tmj32/papers/docs/campanoni14-isca.pdf)
+2. [KVM/ARM: The Design and Implementation of the Linux ARM Hypervisor (ASPLOS'14)](http://www.cs.columbia.edu/~nieh/pubs/asplos2014_kvmarm.pdf)
+3. [Single-graph multiple flows: Energy efficient design alternative for GPGPUs (ISCA'14)](http://ieeexplore.ieee.org/xpl/login.jsp?tp=&arnumber=6853234&url=http%3A%2F%2Fieeexplore.ieee.org%2Fiel7%2F6847316%2F6853187%2F06853234.pdf%3Farnumber%3D6853234)
+4. [Efficient Digital Neurons for Large Scale Cortical Architectures](http://dl.acm.org/citation.cfm?id=2665707)
+5. [Neurogrid: A Mixed-Analog-Digital Multichip System for Large-Scale Neural Simulations](https://web.stanford.edu/group/brainsinsilicon/documents/BenjaminEtAlNeurogrid2014.pdf)
+6. [Towards Energy Proportionality for Large-Scale Latency-Critical Workloads](http://csl.stanford.edu/~christos/publications/2014.pegasus.isca.pdf)
+7. [The CHERI capability model: Revisiting RISC in an age of risk](http://www.cl.cam.ac.uk/research/security/ctsrd/pdfs/201406-isca2014-cheri.pdf)
+8. [Willow: A User-Programmable SSD (OSDI'14)](http://cseweb.ucsd.edu/~swanson/papers/OSDI2014-Willow.pdf)
+9. [Eidetic Systems(OSDI'14)](http://web.eecs.umich.edu/~ddevec/papers/devecsery14.pdf)
+
+
 
 
 
