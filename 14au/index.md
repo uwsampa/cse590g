@@ -40,8 +40,7 @@ layout: base
 10. [An Experimental Survey of Energy Management Across the Stack (OOPSLA'14)](http://arcade.cs.columbia.edu/energy-oopsla14.pdf)
 11. [Chisel: Reliability-Aware Optimization of Approximate Computational Kernels(OOPSLA'14)](http://dspace.mit.edu/bitstream/handle/1721.1/83843/MIT-CSAIL-TR-2014-001.pdf?sequence=1) 
 12. [The Mill CPU](http://millcomputing.com/docs/)
-
-
+13. [Flint: Fixing Linearizability Violations](http://researcher.ibm.com/researcher/files/us-otripp/oopsla14.pdf)
 
 
 
