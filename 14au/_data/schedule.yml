@@ -5,7 +5,7 @@
     - (assign papers)
 
 - date: Oct 6
-  who: Eric MacKay and Brandon M
+  who: Eric Reed and Brandon M
   paper: "[HELIX-RC: An Architecture-Compiler Co-Design for Automatic Parallelization of Irregular Programs (ISCA'14)](https://www.cl.cam.ac.uk/~tmj32/papers/docs/campanoni14-isca.pdf)"
 
 - date: Oct 13
@@ -25,7 +25,7 @@
   paper: "TBD"
 
 - date: Nov 10
-  who: Brandon Holt and Eric Mullen
+  who: Brandon Holt and Eric Mackay
   paper: "[Flint: Fixing Linearizability Violations](http://researcher.ibm.com/researcher/files/us-otripp/oopsla14.pdf)"
 
 - date: Nov 17
