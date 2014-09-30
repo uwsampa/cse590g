@@ -9,7 +9,11 @@ layout: base
 <!-- To edit schedule, edit: `_data/schedule.yml` -->
 <div class="table-responsive">
   <table class="table">
-    <tr> <th>Date</th> <th>Discussion Leader</th> <th>Paper</th> </tr>
+    <thead><tr>
+      <th style="width: 7em;">Date</th>
+      <th>Discussion Leader</th>
+      <th>Paper</th>
+    </tr></thead>
     {% for e in site.data.schedule %}
     <tr>
       <td>{{e.date}}</td>

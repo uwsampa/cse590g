@@ -4,15 +4,15 @@
         <meta charset="utf-8">
         <title>CSE 590G — {{ page.title }}</title>
         <meta name="viewport" content="width=device-width, intial-scale=1">
-                
+
         <link href="{{ site.base }}/css/bootstrap.min.css" 			 rel="stylesheet">
         <!-- <link href="{{ site.base }}/css/bootstrap-theme.min.css" rel="stylesheet"> -->
         <link href="{{ site.base }}/css/theme.css" 							 rel="stylesheet">
         <link href='http://fonts.googleapis.com/css?family=Inconsolata' rel='stylesheet' type='text/css'>
-				
+
 				<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 				<script src="{{ site.base }}/js/bootstrap.min.js"></script>
-        
+
     </head>
     <body>
       <script src="https://code.jquery.com/jquery.js"></script>
@@ -24,26 +24,24 @@
         ga('create', 'UA-48525616-1', 'washington.edu');
         ga('send', 'pageview');
       </script>
-      
+
         <div class="container">
-          
-          <div class="page-header">
-						<h1>
+
+            <h1>
               {{ page.title }} <small>{{ page.subtitle }}</small>
-              
+
               <div class="pull-right">
-                              
+
               <a href="{{ site.base }}/index.html">
                 <img src="{{site.base}}/img/CSElogo2_48.png" alt="CSE Logo"/>
                 <small>590G</small>
-              </a>              
-              
+              </a>
+
               </div>
             </h1>
-					</div>
-          
+
           {{ content }}
-                    
+
           <div class="footer">
             <a href="http://www.cs.washington.edu/">Computer Science &amp;
               Engineering</a>
