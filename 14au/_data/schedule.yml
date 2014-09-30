@@ -1,7 +1,5 @@
 - date: Sept 29
-  who: ???
   paper:
-    - "[None](http://cs.uw.edu/590g)"
     - (assign papers)
 
 - date: Oct 6
@@ -9,7 +7,7 @@
   paper: "[HELIX-RC: An Architecture-Compiler Co-Design for Automatic Parallelization of Irregular Programs (ISCA'14)](https://www.cl.cam.ac.uk/~tmj32/papers/docs/campanoni14-isca.pdf)"
 
 - date: Oct 13
-  who: Vincent and Katelin 
+  who: Vincent and Katelin
   paper: "[Willow: A User-Programmable SSD (OSDI'14)](http://cseweb.ucsd.edu/~swanson/papers/OSDI2014-Willow.pdf)"
 
 - date: Oct 20
@@ -17,11 +15,11 @@
   paper: "[Towards Energy Proportionality for Large-Scale Latency-Critical Workloads](http://csl.stanford.edu/~christos/publications/2014.pegasus.isca.pdf)"
 
 - date: Oct 27
-  who: Guest Speaker - Abhishek Bhattacharjee (Rutgers)
+  who: "Guest Speaker: Abhishek Bhattacharjee (Rutgers)"
   paper: "Hardware support for virtual memory in next-generation heterogeneous manycore systems."
 
 - date: Nov 3
-  who: Guest Speaker - Ras Bodik (Berkeley)
+  who: "Guest Speaker: Ras Bodik (Berkeley)"
   paper: "TBD"
 
 - date: Nov 10

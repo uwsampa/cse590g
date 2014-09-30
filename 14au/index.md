@@ -13,7 +13,7 @@ layout: base
     {% for e in site.data.schedule %}
     <tr>
       <td>{{e.date}}</td>
-      <td>{{e.who | markdownify}}</td>
+      <td>{% if e.who %}{{e.who | markdownify}}{% else %}—{% endif %}</td>
       <td>
         <ul class="list-unstyled">
           {% for p in e.paper %}
