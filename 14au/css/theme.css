@@ -14,3 +14,10 @@
 code {
   color: black;
 }
+
+.logo {
+  text-align: right;
+}
+.logo a:hover {
+  text-decoration: none;
+}
