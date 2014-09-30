@@ -29,7 +29,8 @@ layout: base
 </table>
 
 {% comment %}
-##### Current list of papers
+
+## Current list of papers
 
 1. [HELIX-RC: An Architecture-Compiler Co-Design for Automatic Parallelization of Irregular Programs (ISCA'14)](https://www.cl.cam.ac.uk/~tmj32/papers/docs/campanoni14-isca.pdf)
 2. [KVM/ARM: The Design and Implementation of the Linux ARM Hypervisor (ASPLOS'14)](http://www.cs.columbia.edu/~nieh/pubs/asplos2014_kvmarm.pdf)
