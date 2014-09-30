@@ -30,6 +30,7 @@ layout: base
   </table>
 </div>
 
+{% comment %}
 ##### Current list of papers
 
 1. [HELIX-RC: An Architecture-Compiler Co-Design for Automatic Parallelization of Irregular Programs (ISCA'14)](https://www.cl.cam.ac.uk/~tmj32/papers/docs/campanoni14-isca.pdf)
@@ -45,14 +46,13 @@ layout: base
 11. [Chisel: Reliability-Aware Optimization of Approximate Computational Kernels(OOPSLA'14)](http://dspace.mit.edu/bitstream/handle/1721.1/83843/MIT-CSAIL-TR-2014-001.pdf?sequence=1) 
 12. [The Mill CPU](http://millcomputing.com/docs/)
 13. [Flint: Fixing Linearizability Violations](http://researcher.ibm.com/researcher/files/us-otripp/oopsla14.pdf)
+{% endcomment %}
 
 
+### Guest speakers
 
-#### Guest speakers
 
-
-##### Hardware support for virtual memory in next-generation heterogeneous manycore systems.
-Abhishek Bhattacharjee
+#### Abhishek Bhattacharjee: Hardware support for virtual memory in next-generation heterogeneous manycore systems.
 
 Abstract: Since its inception, virtual memory has become a powerful and ubiquitous abstraction for allocating and managing memory with a flexible and clean programming model. Typically, the systems community has been comfortable paying a performance tax for these programmability benefits. Unfortunately, emerging software with large data requirements and deeper stacks (e.g., large graphs, relational databases,  virtualization), and emerging hardware accelerators requiring manual data orchestration by the CPU are increasing this performance tax drastically, while also conceding various programmability benefits of virtual memory.
 
@@ -60,7 +60,4 @@ In this talk, I discuss techniques to reclaim this lost performance and programm
 
 Bio: Abhishek Bhattacharjee is an assistant professor in the department of computer science at Rutgers University. His interests are in the interactions between architecture and operating systems. Abhishek received his PhD from Princeton University in 2010 and the NSFW Career award in 2013.
 
-###### TBD
-Ras Bodik
-
-
+#### Ras Bodik: TBD
