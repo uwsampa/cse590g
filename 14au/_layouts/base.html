@@ -27,18 +27,17 @@
 
         <div class="container">
 
-            <h1>
-              {{ page.title }} <small>{{ page.subtitle }}</small>
-
-              <div class="pull-right">
-
-              <a href="{{ site.base }}/index.html">
-                <img src="{{site.base}}/img/CSElogo2_48.png" alt="CSE Logo"/>
-                <small>590G</small>
-              </a>
-
+            <div class="row">
+              <div class="col-sm-9">
+                <h1>{{ page.title }} <small>{{ page.subtitle }}</small></h1>
               </div>
-            </h1>
+              <div class="col-sm-3 hidden-xs" style="text-align: right;">
+                <h1><a href="{{ site.base }}/index.html">
+                  <img src="{{site.base}}/img/CSElogo2_48.png" alt="CSE Logo"/>
+                  <small>590G</small>
+                </a></h1>
+              </div>
+            </div>
 
           {{ content }}
 
