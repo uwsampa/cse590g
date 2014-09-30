@@ -7,28 +7,26 @@ layout: base
 ### Autumn 2014 — Mondays, 12:30pm — CSE 303
 
 <!-- To edit schedule, edit: `_data/schedule.yml` -->
-<div class="table-responsive">
-  <table class="table">
-    <thead><tr>
-      <th style="width: 7em;">Date</th>
-      <th>Discussion Leader</th>
-      <th>Paper</th>
-    </tr></thead>
-    {% for e in site.data.schedule %}
-    <tr>
-      <td>{{e.date}}</td>
-      <td>{% if e.who %}{{e.who | markdownify}}{% else %}—{% endif %}</td>
-      <td>
-        <ul class="list-unstyled">
-          {% for p in e.paper %}
-            <li>{{ p | markdownify }}</li>
-          {% endfor %}
-        </ul>
-      </td>
-    </tr>
-    {% endfor %}
-  </table>
-</div>
+<table class="table">
+  <thead><tr>
+    <th style="width: 5em;">Date</th>
+    <th>Discussion Leader</th>
+    <th>Paper</th>
+  </tr></thead>
+  {% for e in site.data.schedule %}
+  <tr>
+    <td>{{e.date}}</td>
+    <td>{% if e.who %}{{e.who | markdownify}}{% else %}—{% endif %}</td>
+    <td>
+      <ul class="list-unstyled">
+        {% for p in e.paper %}
+          <li>{{ p | markdownify }}</li>
+        {% endfor %}
+      </ul>
+    </td>
+  </tr>
+  {% endfor %}
+</table>
 
 {% comment %}
 ##### Current list of papers
