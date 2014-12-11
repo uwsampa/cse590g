@@ -10,7 +10,7 @@ METHOD:PUBLISH{% for e in site.data.schedule %}
 BEGIN:VEVENT
 UID:{{ e.date | date: "%Y%m%d" }}@cse590g.cs.washington.edu
 LOCATION:{{ site.room }}
-SUMMARY:CSE 590g: {{ e.paper | strip_html }}
+SUMMARY:CSE 590G: {{ e.paper | strip_html }}
 DESCRIPTION:{{ e.who }}\n\n{{ e.link }}
 CLASS:PUBLIC
 DTSTART;TZID=America/Los_Angeles:{{ e.date | date: "%Y%m%d" }}T{{ site.starttime | date: "%H%M%S" }}
