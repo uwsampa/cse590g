@@ -1,4 +1,4 @@
-SUBDIRS = 14au
+SUBDIRS = 14au 15wi
 
 .PHONY: deploy subdirs $(SUBDIRS)
 

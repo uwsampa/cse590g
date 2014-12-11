@@ -1,0 +1,13 @@
+name: CSE 590G - Autumn 2014
+description: Computer Architecture Seminar
+markdown: redcarpet
+highlighter: pygments
+
+redcarpet:
+    extensions: ["with_toc_data"]
+
+base: ''
+
+url: http://courses.cs.washington.edu/courses/cse590g/14au/
+
+exclude: [README.md, Makefile]
