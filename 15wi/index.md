@@ -4,7 +4,9 @@ subtitle: Architecture Seminar
 layout: base
 ---
 
-### Autumn 2014 — Mondays, 12:30pm — CSE 303
+### {{ site.quarter }} — {{ site.day }}, {{ site.starttime }} — {{ site.room }}
+
+[Subscribe to the calendar.]({{ site.url | replace:'http','webcal' }}/schedule.ics)
 
 <!-- To edit schedule, edit: `_data/schedule.yml` -->
 <table class="table">
@@ -15,14 +17,10 @@ layout: base
   </tr></thead>
   {% for e in site.data.schedule %}
   <tr>
-    <td>{{e.date}}</td>
+    <td>{{ e.date | date: "%b %-d"}}</td>
     <td>{% if e.who %}{{e.who | markdownify}}{% else %}—{% endif %}</td>
     <td>
-      <ul class="list-unstyled">
-        {% for p in e.paper %}
-          <li>{{ p | markdownify }}</li>
-        {% endfor %}
-      </ul>
+      {% if e.link %}<a href="{{ e.link }}">{% endif %}{{ e.paper | markdownify }}{% if e.link %}</a>{% endif %}
     </td>
   </tr>
   {% endfor %}

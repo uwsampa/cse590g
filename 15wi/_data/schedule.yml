@@ -1,39 +1,45 @@
-- date: Sept 29
-  paper:
-    - (assign papers)
+- date: 5 January 2015
+  paper: "Assign papers"
 
-- date: Oct 6
+- date: 12 January 2015
   who: Eric Reed and Brandon M
-  paper: "[HELIX-RC: An Architecture-Compiler Co-Design for Automatic Parallelization of Irregular Programs (ISCA'14)](https://www.cl.cam.ac.uk/~tmj32/papers/docs/campanoni14-isca.pdf)"
+  paper: "HELIX-RC: An Architecture-Compiler Co-Design for Automatic Parallelization of Irregular Programs (ISCA'14)"
+  link: https://www.cl.cam.ac.uk/~tmj32/papers/docs/campanoni14-isca.pdf
 
-- date: Oct 13
+- date: 19 January 2015
   who: Vincent and Katelin
-  paper: "[Willow: A User-Programmable SSD (OSDI'14)](http://cseweb.ucsd.edu/~swanson/papers/OSDI2014-Willow.pdf)"
+  paper: "Willow: A User-Programmable SSD (OSDI'14)"
+  link: http://cseweb.ucsd.edu/~swanson/papers/OSDI2014-Willow.pdf
 
-- date: Oct 20
+- date: 26 January 2015
   who: Carlo and James
-  paper: "[Towards Energy Proportionality for Large-Scale Latency-Critical Workloads](http://csl.stanford.edu/~christos/publications/2014.pegasus.isca.pdf)"
+  paper: "Towards Energy Proportionality for Large-Scale Latency-Critical Workloads"
+  link: http://csl.stanford.edu/~christos/publications/2014.pegasus.isca.pdf
 
-- date: Oct 27
+- date: 2 February 2015
   who: "Guest Speaker: Abhishek Bhattacharjee (Rutgers)"
-  paper: "Hardware support for virtual memory in next-generation heterogeneous manycore systems."
+  paper: "Hardware support for virtual memory in next-generation heterogeneous manycore systems"
 
-- date: Nov 3
-  who: "Guest Speaker: Ras Bodik (Berkeley)<br /><b>in CSE 691 (Gates Commons)</b>"
+- date: 9 February 2015
+  who: "Guest Speaker: Ras Bodik (Berkeley)<br /><b> in CSE 691 (Gates Commons)</b>"
   paper: "Synthesis-Aided Compilers"
 
-- date: Nov 10
+- date: 16 February 2015
   who: Brandon Holt and Eric Mackay
-  paper: "[Flint: Fixing Linearizability Violations](http://researcher.ibm.com/researcher/files/us-otripp/oopsla14.pdf)"
+  paper: "Flint: Fixing Linearizability Violations"
+  link: http://researcher.ibm.com/researcher/files/us-otripp/oopsla14.pdf
 
-- date: Nov 17
+- date: 23 February 2015
   who: Adrian and Amrita
-  paper: "[The Mill CPU](http://millcomputing.com/docs/)"
+  paper: "The Mill CPU"
+  link: http://millcomputing.com/docs/
 
-- date: Nov 24
+- date: 2 March 2015
   who: Mark Z and Mark W
-  paper: "[The CHERI capability model: Revisiting RISC in an age of risk](http://www.cl.cam.ac.uk/research/security/ctsrd/pdfs/201406-isca2014-cheri.pdf)"
+  paper: "The CHERI capability model: Revisiting RISC in an age of risk"
+  link: http://www.cl.cam.ac.uk/research/security/ctsrd/pdfs/201406-isca2014-cheri.pdf
 
-- date: Dec 1
+- date: 9 March 2015
   who: Jacob and Arushi
-  paper: "[Efficient Digital Neurons for Large Scale Cortical Architectures](http://dl.acm.org/citation.cfm?id=2665707)"
+  paper: "Efficient Digital Neurons for Large Scale Cortical Architectures"
+  link: http://dl.acm.org/citation.cfm?id=2665707

@@ -1,0 +1,20 @@
+---
+layout: null
+---
+BEGIN:VCALENDAR
+VERSION:2.0
+X-WR-CALNAME:CSE 590g - Winter 2015
+X-WR-TIMEZONE:America/Los_Angeles
+PRODID:http://courses.cs.washington.edu/courses/cse590g/15wi/
+METHOD:PUBLISH{% for e in site.data.schedule %}
+BEGIN:VEVENT
+UID:{{ e.date | date: "%Y%m%d" }}@cse590g.cs.washington.edu
+LOCATION:{{ site.room }}
+SUMMARY:CSE 590g: {{ e.paper | strip_html }}
+DESCRIPTION:{{ e.who }}\n\n{{ e.link }}
+CLASS:PUBLIC
+DTSTART;TZID=US-Pacific:{{ e.date | date: "%Y%m%d" }}T{{ site.starttime | date: "%H%M%S" }}
+DTEND;TZID=US-Pacific:{{ e.date | date: "%Y%m%d" }}T{{ site.endtime | date: "%H%M%S" }}
+DTSTAMP;TZID=US-Pacific:{{ e.date | date: "%Y%m%d" }}T{{ site.starttime | date: "%H%M%S" }}
+END:VEVENT{% endfor %}
+END:VCALENDAR

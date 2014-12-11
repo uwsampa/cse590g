@@ -1,13 +1,19 @@
-name: CSE 590G - Autumn 2014
+name: CSE 590G - Winter 2015
 description: Computer Architecture Seminar
 markdown: redcarpet
 highlighter: pygments
+
+quarter: Winter 2015
+day: Monday
+starttime: 12:30pm
+endtime: 1:20pm
+room: CSE 303
 
 redcarpet:
     extensions: ["with_toc_data"]
 
 base: ''
 
-url: http://courses.cs.washington.edu/courses/cse590g/14au/
+url: http://courses.cs.washington.edu/courses/cse590g/15wi/
 
 exclude: [README.md, Makefile]
