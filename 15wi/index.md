@@ -6,7 +6,7 @@ layout: base
 
 ### {{ site.quarter }} — {{ site.day }}, {{ site.starttime }} — {{ site.room }}
 
-[Subscribe to the calendar.]({{ site.url | replace:'http','webcal' }}/schedule.ics)
+Subscribe to the calendar: [iCal]({{ site.url | replace:'http','webcal' }}/schedule.ics) or [Google Calendar](http://www.google.com/calendar/render?cid={{ site.url }}/schedule.ics)
 
 <!-- To edit schedule, edit: `_data/schedule.yml` -->
 <table class="table">
