@@ -5,6 +5,7 @@ BEGIN:VCALENDAR
 VERSION:2.0
 X-WR-CALNAME:CSE 590G - Winter 2015
 X-WR-TIMEZONE:America/Los_Angeles
+X-PUBLISHED-TTL:PT2H
 PRODID:http://courses.cs.washington.edu/courses/cse590g/15wi/
 METHOD:PUBLISH{% for e in site.data.schedule %}
 BEGIN:VEVENT
