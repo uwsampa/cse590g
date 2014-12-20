@@ -17,6 +17,6 @@ CLASS:PUBLIC
 DTSTART;TZID=America/Los_Angeles:{{ e.date | date: "%Y%m%d" }}T{{ site.starttime | date: "%H%M%S" }}
 DTEND;TZID=America/Los_Angeles:{{ e.date | date: "%Y%m%d" }}T{{ site.endtime | date: "%H%M%S" }}
 LAST-MODIFIED:{{ site.time | date: "%Y%m%d" }}T{{ site.time | date: "%H%M%S" }}
-SEQUENCE:1
+SEQUENCE:{{ site.time | date: "%Y%m%d%H%M%S" }}
 END:VEVENT{% endfor %}
 END:VCALENDAR
