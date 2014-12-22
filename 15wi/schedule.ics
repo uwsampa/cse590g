@@ -7,16 +7,16 @@ X-WR-CALNAME:CSE 590G - Winter 2015
 X-WR-TIMEZONE:America/Los_Angeles
 X-PUBLISHED-TTL:PT2H
 PRODID:http://courses.cs.washington.edu/courses/cse590g/15wi/
-METHOD:PUBLISH{% for e in site.data.schedule %}
+METHOD:PUBLISH{% for e in site.data.schedule %}{% if e.paper != '—' and e.paper != '-' %}
 BEGIN:VEVENT
 UID:{{ e.date | date: "%Y%m%d" }}@cse590g.cs.washington.edu
 LOCATION:{{ site.room }}
 SUMMARY:CSE 590G: {{ e.paper | strip_html }}
-DESCRIPTION:{{ e.who }}\n\n{{ e.link }}
+DESCRIPTION:{% if e.who %}Who: {{ e.who }}{% endif %}{% if e.link and e.who %}\n\n{{ e.link }}{% endif %}
 CLASS:PUBLIC
 DTSTART;TZID=America/Los_Angeles:{{ e.date | date: "%Y%m%d" }}T{{ site.starttime | date: "%H%M%S" }}
 DTEND;TZID=America/Los_Angeles:{{ e.date | date: "%Y%m%d" }}T{{ site.endtime | date: "%H%M%S" }}
 LAST-MODIFIED:{{ site.time | date: "%Y%m%d" }}T{{ site.time | date: "%H%M%S" }}
 SEQUENCE:1
-END:VEVENT{% endfor %}
+END:VEVENT{% endif %}{% endfor %}
 END:VCALENDAR
