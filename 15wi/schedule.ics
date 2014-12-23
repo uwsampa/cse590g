@@ -12,7 +12,7 @@ BEGIN:VEVENT
 UID:{{ e.date | date: "%Y%m%d" }}@cse590g.cs.washington.edu
 LOCATION:{{ site.room }}
 SUMMARY:CSE 590G: {{ e.paper | strip_html }}
-DESCRIPTION:{% if e.who %}Who: {{ e.who }}{% endif %}{% if e.link and e.who %}\n\n{{ e.link }}{% endif %}
+DESCRIPTION:{% if e.who %}Who: {{ e.who }}{% endif %}{% if e.link and e.who %}\n\n{% endif %}{% if e.link %}{{ e.link }}{% endif %}
 CLASS:PUBLIC
 DTSTART;TZID=America/Los_Angeles:{{ e.date | date: "%Y%m%d" }}T{{ site.starttime | date: "%H%M%S" }}
 DTEND;TZID=America/Los_Angeles:{{ e.date | date: "%Y%m%d" }}T{{ site.endtime | date: "%H%M%S" }}
