@@ -5,37 +5,43 @@
 
 - date: 12 January 2015
   who: "Carlo and Amrita"
-  paper: "Q100"
-  link: https://www.youtube.com/watch?v=LvcSh_oTJ9k
+  paper: "Q100: The Architecture and Design of a Database Processing Unit"
+  link: http://arcade.cs.columbia.edu/q100-asplos14.pdf
 
 - date: 19 January 2015
   who: "MLK Day"
   paper: "—"
 
 - date: 26 January 2015
-  who: "Eric M and Bill"
-  paper: "PipeCheck"
+  who: "Eric Mackay and Bill"
+  paper: "PipeCheck: Specifying and Verifying Microarchitectural Enforcement of Memory Consistency Models"
+  link: http://www.princeton.edu/~dlustig/dlustig_MICRO14.pdf
 
 - date: 2 February 2015
   who: "Vincent and James"
-  paper: "DaDianNao"
+  paper: "DaDianNao: A Machine-Learning Supercomputer"
+  link: http://novel.ict.ac.cn/ychen/pdf/DaDianNao.pdf
 
 - date: 9 February 2015
-  who: "Angus and Holt"
-  paper: "Protean Code"
+  who: "Angus and Brandon H"
+  paper: "Protean Code: Achieving Near-free Online Code Transformations for Warehouse Scale Computers"
+  link: http://jasonmars.org/wp-content/papercite-data/pdf/laurenzano14micro.pdf
 
 - date: 16 February 2015
   who: "President's Day"
   paper: "—"
 
 - date: 23 February 2015
-  who: "Mark and Adrian Shan"
-  paper: "Execution Drafting"
+  who: "Mark W and Adrian Sham"
+  paper: "Execution Drafting: Energy Efficiency Through Computation Deduplication"
+  link: "https://balsa.man.poznan.pl/indico/contributionDisplay.py/pdf?contribId=38&sessionId=23&confId=31"
 
 - date: 2 March 2015
   who: "Jacob and Venkatesh"
-  paper: "switch stuff"
+  paper: "Switch stuff"
+  link: http://switch.stuff
 
 - date: 9 March 2015
   who: "Thierry and Matt"
   paper: "Load Value Approximation"
+  link: http://www.eecg.toronto.edu/~enright/lva-micro2014.pdf
